@@ -1,0 +1,8 @@
+redis:
+  host: 192.168.146.120   # redis服务器的地址
+  port: 6379   #redis服务器的端口  默认为6379
+  timeout: 3  #客户端超时时长
+  password:   #redis客户端密码
+  poolMaxTotal: 10   #redis连接池最大连接
+  poolMaxIdle: 10  #连接池最大空闲连接数
+  poolMaxWait: 5  # 连接最大等待时间(毫秒)
